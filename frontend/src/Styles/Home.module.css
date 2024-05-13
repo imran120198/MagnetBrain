@@ -1,0 +1,22 @@
+.productConatiner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.productCard {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+}
+
+.productImage {
+  height: 200px;
+  width: 200px;
+}
+
+.productButton {
+  width: 150px;
+  height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
